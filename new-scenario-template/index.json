@@ -40,7 +40,7 @@
 		"uieditorpath": "/root/e-commerce"
 	},
 	"files": [
-    		"docker-compose.yml", "/cfg/my.cnf"
+		"docker-compose.yml", "/cfg/my.cnf"
 	],
 	"backend": {
 		"imageid": "ubuntu:2004"
