@@ -6,6 +6,9 @@ What you was just learned:
 
 
 More resources here:
+
 https://wordpress.com/learn/
+
 https://grafana.com/tutorials/
+
 https://dev.mysql.com/doc/refman/8.0/en/
