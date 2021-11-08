@@ -36,7 +36,7 @@
 				"href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
 			}
 		],
-		"uilayout": "editor-terminal"
+		"uilayout": "editor-terminal",
 		"uieditorpath": "/root/e-commerce"
 	},
 	"files": [
