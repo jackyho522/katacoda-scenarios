@@ -18,8 +18,8 @@ Copy to docker-compose.yml
   data-target="replace">
 version: '3.2'
 services:
-        mysql-server:
-             container_name: mysql_project
+       mysql-server:
+             container_name: mysql_ecommerce
              volumes:
                 - ./cfg/my.cnf:/etc/my.cnf
                 - ./scripts:/docker-entrypoint-initdb.d
@@ -27,14 +27,14 @@ services:
              ports:
                 - "13306:3306"
              environment:
-                MYSQL_ROOT_PASSWORD: 12345
+             MYSQL_ROOT_PASSWORD: 12345
                 MYSQL_DATABASE: wordpress
                 MYSQL_USER: wordpress_user
                 MYSQL_PASSWORD: secret
              image: mysql/mysql-server
         wordpress:
              image: wordpress:latest
-             container_name: wordpress_project 
+             container_name: wordpress_ecommerce 
              volumes:
                 - ./wordpress:/var/www/html
                 - ./plugins:/var/www/html/wp-content/plugins
@@ -44,11 +44,11 @@ services:
                 WORDPRESS_DB_HOST: mysql-server:3306
                 WORDPRESS_DB_USER: wordpress_user
                 WORDPRESS_DB_PASSWORD: secret
-             depends_on:
+              depends_on:
                 - mysql-server
         grafana:
              image: grafana/grafana
-             container_name: grafana_project
+             container_name: grafana_ecommerce
              volumes:
                 - ./grafana/data:/var/lib/grafana
              ports:
