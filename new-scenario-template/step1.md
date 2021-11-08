@@ -10,6 +10,7 @@ Create a simple WordPress stack using wordpress, mysql/mysql-server and grafana/
 1. Copy the contents below. It pulls 3 images that will be used in this scenario.
 2. It used bind mount. The file or directory on the host machine is mounted into containers. 
 
+
 <pre>
 version: '3.2'
 services:
