@@ -11,7 +11,9 @@ Create a simple WordPress stack using wordpress, mysql/mysql-server and grafana/
 2. It used bind mount. The file or directory on the host machine is mounted into containers. 
 
 
-<pre>
+<pre class="file"
+ data-filename="./docker-compose.yml"
+  data-target="replace">
 version: '3.2'
 services:
         mysql-server:
@@ -49,7 +51,7 @@ services:
                 - ./grafana/data:/var/lib/grafana
              ports:
                 - "3000:3000"
-</pre>{{copy}}
+</pre>
                 
 Run `docker-compose up -d`{{execute}} to setup your environment.
 
