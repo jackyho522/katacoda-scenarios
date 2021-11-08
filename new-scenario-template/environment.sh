@@ -2,10 +2,11 @@
 
 mkdir e-commerce
 mkdir cfg
-touch /cfg/my.cnf
-mkdir /grafana/data
+touch ./cfg/my.cnf
+mkdir grafana
+mkdir ./grafana/data
 mkdir plugins
 mkdir scripts
 mkdir wordpress
-chmod 777 -R grafana
+chmod -R 777 grafana
 
