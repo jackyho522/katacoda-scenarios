@@ -52,7 +52,7 @@ services:
     volumes: 
       - "./wordpress:/var/www/html"
       - "./plugins:/var/www/html/wp-content/plugins"
-version: '3.2'
+version: "3.2"
 </pre>
 
 Copy to my.cnf
