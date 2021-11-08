@@ -2,7 +2,7 @@
 	"title": "Create Your Online E-commerce Store",
 	"description": "A simple scenario example.",
 	"difficulty": "Beginner",
-	"time": "10 minutes",
+	"time": "30 minutes",
 	"details": {
 		"steps": [{
 				"title": "Step 1",
@@ -29,11 +29,13 @@
 		"showdashboard": true,
 		"dashboards": [{
 				"name": "Port 20080",
-				"href": "https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com"
+				"port": 20080
+				<!--"href": "https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com"-->
 			},
 			{
 				"name": "Port 3000",
-				"href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
+				"port": 3000
+				<!--"href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"-->
 			}
 		],
 		"uilayout": "editor-terminal",
