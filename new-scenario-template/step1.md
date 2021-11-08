@@ -22,7 +22,7 @@ services:
     container_name: grafana_ecommerce
     image: grafana/grafana
     ports: 
-      - "3001:3000"
+      - "3000:3000"
     volumes: 
       - "./grafana/data:/var/lib/grafana"
   mysql-server: 
@@ -34,7 +34,7 @@ services:
       MYSQL_USER: wordpress_user
     image: mysql/mysql-server
     ports: 
-      - "13307:3306"
+      - "13306:3306"
     volumes: 
       - "./cfg/my.cnf:/etc/my.cnf"
       - "./scripts:/docker-entrypoint-initdb.d"
@@ -49,7 +49,7 @@ services:
       WORDPRESS_DB_USER: wordpress_user
     image: "wordpress:latest"
     ports: 
-      - "20081:80"
+      - "20080:80"
     volumes: 
       - "./wordpress:/var/www/html"
       - "./plugins:/var/www/html/wp-content/plugins"
