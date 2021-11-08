@@ -38,6 +38,9 @@
 		],
 		"uilayout": "terminal-iframe"
 	},
+	"files": [
+    		"docker-compose.yml", "/cfg/my.cnf"
+	],
 	"backend": {
 		"imageid": "ubuntu:2004"
 	}
