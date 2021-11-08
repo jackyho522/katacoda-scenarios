@@ -29,14 +29,14 @@
 		"showdashboard": true,
 		"dashboards": [{
 				"name": "Port 20080",
-				"port": 20080
+				"href": "https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com"
 			},
 			{
 				"name": "Port 3000",
 				"href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
 			}
 		],
-		"uilayout": "terminal-iframe",
+		"uilayout": "editor-terminal"
 		"uieditorpath": "/root/e-commerce"
 	},
 	"files": [
