@@ -4,33 +4,19 @@
 
 Image:
 
-  - Nginx web server
-  - MariaDB/MySQL used for Wordpress database
-  - MySQL database
-  - yml file for customization.
+  - mysql-server
+  - wordpress
+  - grafana
 
-You can deploy a local docker Wordpress site with WooCommerce in 5 minutes
-by editing yml file:
-
+You can use docker-copmomse file (docker-compose.yml) for launching the Wordpress(including plugins) and MySQL stack.
 
 Default identification for your wordpress website admin:
 
-  - `Username: wordpress` and
+  - `Username: wordpress_user` and
   - `Password: wordpress`
 
-Default identification for the phpMyAdmin interface:
+Default identification for MYSQL root account:
 
   - `Username: root` and
-  - `Password: password`
+  - `Password: 12345`
 
-**Useful set of commands to know**:
-
-``` bash
-# Stop and remove containers
-docker-compose down
-# Build, and start the wordpress website
-docker-compose up -d --build
-# Reset everything
-docker-compose down
-rm -rf certs/* certs-data/* logs/nginx/* mysql/* wordpress/*
-```
