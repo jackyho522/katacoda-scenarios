@@ -16,6 +16,7 @@ Copy to docker-compose.yml
 <pre class="file"
  data-filename="./docker-compose.yml"
   data-target="replace">
+version: "3.2"
 services: 
   grafana: 
     container_name: grafana_ecommerce
@@ -52,7 +53,6 @@ services:
     volumes: 
       - "./wordpress:/var/www/html"
       - "./plugins:/var/www/html/wp-content/plugins"
-version: "3.2"
 </pre>
 
 Copy to my.cnf
