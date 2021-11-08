@@ -1,6 +1,7 @@
 #/bin/bash
 
 mkdir e-commerce
+cd e-commerce
 mkdir cfg
 touch ./cfg/my.cnf
 mkdir grafana
@@ -10,3 +11,4 @@ mkdir scripts
 mkdir wordpress
 chmod -R 777 grafana
 ls
+pwd
