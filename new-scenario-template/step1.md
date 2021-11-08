@@ -19,14 +19,14 @@ Copy to docker-compose.yml
 version: '3.2'
 services: 
   grafana: 
-    container_name: grafana_project
+    container_name: grafana_ecommerce
     image: grafana/grafana
     ports: 
       - "3001:3000"
     volumes: 
       - "./grafana/data:/var/lib/grafana"
   mysql-server: 
-    container_name: mysql_project
+    container_name: mysql_ecommerce
     environment: 
       MYSQL_DATABASE: wordpress
       MYSQL_PASSWORD: secret
@@ -40,7 +40,7 @@ services:
       - "./scripts:/docker-entrypoint-initdb.d"
       - "./db_data:/var/lib/mysql"
   wordpress: 
-    container_name: wordpress_project
+    container_name: wordpress_ecommerce
     depends_on: 
       - mysql-server
     environment: 
