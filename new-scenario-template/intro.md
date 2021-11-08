@@ -19,3 +19,7 @@ Default identification for MYSQL root account:
   - `Username: root` and
   - `Password: 12345`
 
+Default identification for Grafana:
+You can edit your password after you login 
+  - `Username: admin` and
+  - `Password: admin`
