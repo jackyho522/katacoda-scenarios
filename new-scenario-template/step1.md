@@ -7,6 +7,48 @@ Create a simple WordPress stack using wordpress, mysql/mysql-server and grafana/
 
 ## Task
 
+1. Copy the contents below. It pulls 3 images that will be used in this scenario.
+2. It used bind mount. The file or directory on the host machine is mounted into containers. 
+
+
+`version: '3.2'
+services:
+        mysql-server:
+             container_name: mysql_project
+             volumes:
+                - ./cfg/my.cnf:/etc/my.cnf
+                - ./scripts:/docker-entrypoint-initdb.d
+                - ./db_data:/var/lib/mysql
+             ports:
+                - "13306:3306"
+             environment:
+                MYSQL_ROOT_PASSWORD: 12345
+                MYSQL_DATABASE: wordpress
+                MYSQL_USER: wordpress_user
+                MYSQL_PASSWORD: secret
+             image: mysql/mysql-server
+        wordpress:
+             image: wordpress:latest
+             container_name: wordpress_project 
+             volumes:
+                - ./wordpress:/var/www/html
+                - ./plugins:/var/www/html/wp-content/plugins
+             ports:
+                - "20080:80"
+             environment:
+                WORDPRESS_DB_HOST: mysql-server:3306
+                WORDPRESS_DB_USER: wordpress_user
+                WORDPRESS_DB_PASSWORD: secret
+             depends_on:
+                - mysql-server
+        grafana:
+             image: grafana/grafana
+             container_name: grafana_project
+             volumes:
+                - ./grafana/data:/var/lib/grafana
+             ports:
+                - "3000:3000"`{{copy}}
+                
 Run `docker-compose up`{{execute}} to setup your environment.
 
 You can use `docker-compose logs`{{execute}} to view services logs.
