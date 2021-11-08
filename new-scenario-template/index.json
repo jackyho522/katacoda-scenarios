@@ -31,11 +31,7 @@
     "dashboards": 
         {"name": "Port 20081", "port": 20081},
         {"name": "Port 3001", "href": "https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com"}],
-    "uilayout": "terminal-iframe"
-}
-    
-    
-    
+    "uilayout": "terminal-iframe"   
   },
   "backend": {
     "imageid": "ubuntu:2004"
