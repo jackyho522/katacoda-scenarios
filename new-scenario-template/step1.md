@@ -17,42 +17,42 @@ Copy to docker-compose.yml
  data-filename="./docker-compose.yml"
   data-target="replace">
 version: '3.2'
-services:
-       mysql-server:
-             container_name: mysql_ecommerce
-             volumes:
-                - ./cfg/my.cnf:/etc/my.cnf
-                - ./scripts:/docker-entrypoint-initdb.d
-                - ./db_data:/var/lib/mysql
-             ports:
-                - "13306:3306"
-             environment:
-             MYSQL_ROOT_PASSWORD: 12345
-                MYSQL_DATABASE: wordpress
-                MYSQL_USER: wordpress_user
-                MYSQL_PASSWORD: secret
-             image: mysql/mysql-server
-        wordpress:
-             image: wordpress:latest
-             container_name: wordpress_ecommerce 
-             volumes:
-                - ./wordpress:/var/www/html
-                - ./plugins:/var/www/html/wp-content/plugins
-             ports:
-                - "20080:80"
-             environment:
-                WORDPRESS_DB_HOST: mysql-server:3306
-                WORDPRESS_DB_USER: wordpress_user
-                WORDPRESS_DB_PASSWORD: secret
-              depends_on:
-                - mysql-server
-        grafana:
-             image: grafana/grafana
-             container_name: grafana_ecommerce
-             volumes:
-                - ./grafana/data:/var/lib/grafana
-             ports:
-                - "3000:3000"
+services: 
+  grafana: 
+    container_name: grafana_project
+    image: grafana/grafana
+    ports: 
+      - "3001:3000"
+    volumes: 
+      - "./grafana/data:/var/lib/grafana"
+  mysql-server: 
+    container_name: mysql_project
+    environment: 
+      MYSQL_DATABASE: wordpress
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_USER: wordpress_user
+    image: mysql/mysql-server
+    ports: 
+      - "13307:3306"
+    volumes: 
+      - "./cfg/my.cnf:/etc/my.cnf"
+      - "./scripts:/docker-entrypoint-initdb.d"
+      - "./db_data:/var/lib/mysql"
+  wordpress: 
+    container_name: wordpress_project
+    depends_on: 
+      - mysql-server
+    environment: 
+      WORDPRESS_DB_HOST: "mysql-server:3306"
+      WORDPRESS_DB_PASSWORD: secret
+      WORDPRESS_DB_USER: wordpress_user
+    image: "wordpress:latest"
+    ports: 
+      - "20081:80"
+    volumes: 
+      - "./wordpress:/var/www/html"
+      - "./plugins:/var/www/html/wp-content/plugins"
 </pre>
 
 Copy to my.cnf
