@@ -9,4 +9,4 @@ mkdir plugins
 mkdir scripts
 mkdir wordpress
 chmod -R 777 grafana
-
+ls
