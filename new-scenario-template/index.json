@@ -1,39 +1,44 @@
 {
-  "title": "Create Your Online E-commerce Store",
-  "description": "A simple scenario example.",
-  "difficulty": "Beginner",
-  "time": "10 minutes",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "code": "environment.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "showdashboard": true,
-    "dashboards": [
-        {"name": "Port 20080", "port": 20080},
-        {"name": "Port 3000", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"}],
-    "uilayout": "terminal-iframe"
-  },
-  "backend": {
-    "imageid": "ubuntu:2004"
-  }
+	"title": "Create Your Online E-commerce Store",
+	"description": "A simple scenario example.",
+	"difficulty": "Beginner",
+	"time": "10 minutes",
+	"details": {
+		"steps": [{
+				"title": "Step 1",
+				"text": "step1.md"
+			},
+			{
+				"title": "Step 2",
+				"text": "step2.md"
+			},
+			{
+				"title": "Step 3",
+				"text": "step3.md"
+			}
+		],
+		"intro": {
+			"text": "intro.md",
+			"code": "environment.sh"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"environment": {
+		"showdashboard": true,
+		"dashboards": [{
+				"name": "Port 20080",
+				"port": 20080
+			},
+			{
+				"name": "Port 3000",
+				"href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
+			}
+		],
+		"uilayout": "terminal-iframe"
+	},
+	"backend": {
+		"imageid": "ubuntu:2004"
+	}
 }
