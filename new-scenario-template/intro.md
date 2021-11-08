@@ -1,6 +1,7 @@
 # Deploy Wordpress and WooCommerce using Docker Compose
 
 In this scenario you will try to launch the Wordpress(including plugins) and MySQL stack using docker-compose.
+You will also try to use Grafana as a audit tool to monitor the MySQL database.
 
 Images:
 
