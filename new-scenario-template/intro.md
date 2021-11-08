@@ -1,4 +1,4 @@
-# New Scenario Template (Your Title Here)
+# The Hypothetical Scenario (Your Title Here)
 
 This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
