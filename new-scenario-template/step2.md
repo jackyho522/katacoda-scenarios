@@ -28,17 +28,14 @@ Pick a language:
 ![wp_plugin](./assets/addplugin.png)
 - You can add different plugins in this page. Type the name of the plugins in the search bar.
 
-
-
-
-
-
+![wp_plugin](./assets/wc_install.png)
 - Type WooCommerce in the search bar and install now.
 
 
-
+![wp_plugin](./assets/wcimex.png)
 - Type WebToffee Customer Import Export and install now. WooCommerce already allowed users to import products by csv files. Sammple product csv files can be found
 in the internet.
 
-
+REMEMBER to activate them after you installed them.
+![wp_plugin](./assets/activate.png)
 
