@@ -1,9 +1,15 @@
 # Step 3 - Import Custom Data
 
-Create a simple online e-commerce store by using WordPress plguins.
-1. WooCommerce is used for this scenario. It is a open-source eCommerce platform built on WordPress.
-2. Some security plugins will be introduced to improve WordPress security. Plugins can be found in https://wordpress.org/plugins/.
+WooCommerce allows you to import and export products by using CSV files, but unfortunately user roles cannot be imported or exported except extra plugins are used
+In this scenario, WebToffee plugin(free version) will be used to demonstrate.
 
-## Installation
-- Press the dashboard named "Port 20080". It will lead you to WordPress install page.
+## Preparation
+- CSV files are needed. 
+
+- Product sample csv file can be generated.
+
+- Customer example csv file can be downloaded in here:
+https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
+
+
 
