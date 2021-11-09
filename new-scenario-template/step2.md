@@ -15,9 +15,9 @@ Create a simple online e-commerce store by using WordPress plguins.
 - After inserting the information, Press "Install WordPress" and login to your account you just created.
 
 ## Plugins
-<pre>
+
 ![wp_plugin](./assets/wp_plugin.png)
-</pre>
+
 - Press Add New on the left of the WordPress menu.
 - You can add different plugins in this page. Type the name of the plugins in the search bar.
 
