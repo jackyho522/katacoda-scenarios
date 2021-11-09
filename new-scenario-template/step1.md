@@ -71,20 +71,26 @@ If the terminal shows error "yaml.parser.ParserError: expected '<document start>
 again a few more times.
  
 ##Bind mount
-This will mount grafana data:
+- This will mount grafana data:
 `./grafana/data:/var/lib/grafana`
-This will mount YOUR OWN mysql configuration file into the mysql container.
+ 
+- This will mount YOUR OWN mysql configuration file into the mysql container.
 `./cfg/my.cnf:/etc/my.cnf`
-The sql scripts will be mounted to docker-entrypoint-initdb.d. It is executed the moment your database container starts running. 
+ 
+- The sql scripts will be mounted to docker-entrypoint-initdb.d. It is executed the moment your database container starts running. 
 `./scripts:/docker-entrypoint-initdb.d`
-The database data will be mounted to here.
+ 
+- The database data will be mounted to here.
 `./db_data:/var/lib/mysql`
-This will mount your own customized WordPress website and plugins:
+ 
+- This will mount your own customized WordPress website and plugins:
 `./wordpress:/var/www/html`
 `./plugins:/var/www/html/wp-content/plugins`
 
 It is possible to pre-load plugins into the `wp-content/plugins/` directory by using WordPress environment variable, WP_PLUGINS.
+ 
 For example:
 `WP_PLUGINS: "nginx-helper redis-cache MailPoet my-other-plugin"`
+ 
 By default it is set to `WP_PLUGINS="nginx-helper redis-cache MailPoet"` as these plugins are core to the operation of this container. Plugins will only be installed the first time the container is run.
 
