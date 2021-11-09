@@ -7,6 +7,7 @@ In this scenario, WebToffee plugin(free version) will be used to demonstrate. Fr
 - CSV files are needed. 
 
 - Product sample csv file can be generated. After WooCommerce is successfully installed, you can see in the menu.
+
 ![wp_plugin](./assets/wc_menu.png)
 
 Click it and it will lead you to a simple guide on how to get ready to start selling.
