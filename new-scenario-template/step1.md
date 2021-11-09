@@ -70,7 +70,7 @@ You can use `docker-compose logs`{{execute}} to view services logs.
 If the terminal shows error "yaml.parser.ParserError: expected '<document start>', but found '<scalar>' in "./docker-compose.yml", line 2, column 1, Click "Copy to Editor"
 again a few more times.
  
-##Bind mount
+## Bind mount
 - This will mount grafana data:
 `./grafana/data:/var/lib/grafana`
  
