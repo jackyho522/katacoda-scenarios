@@ -30,7 +30,8 @@ Create a simple online e-commerce store by using WordPress plguins.
 
 
 
-- Type WebToffee Product Import Export and install now.
+- Type WebToffee Customer Import Export and install now. WooCommerce already allowed users to import products by csv files. Sammple product csv files can be found
+in the internet.
 
 
 
