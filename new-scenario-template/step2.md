@@ -6,15 +6,18 @@ Create a simple online e-commerce store by using WordPress plguins.
 
 ## Installation
 - Press the dashboard named "Port 20080". It will lead you to WordPress install page.
+
 Pick a language:
 ![wp_plugin](./assets/wp_lang.png)
 ![wp_plugin](./assets/wp_install.png)
+
 - Choose any site title and username(Administrator). About password of the admin, it is recommended to use a strong password.
 - WordPress will tell you if your password is strong/weak. It actually uses a library called "zxcvbn" made by Dropbox in 2012.
 - It analyzes patterns in the password. For example, "Password54321!" is not a good password. It uses a dictionary word and easily attacked by simple dictionary attack.
   - Further explaination: https://dropbox.tech/security/zxcvbn-realistic-password-strength-estimation
 - WordPress default password encryption is a combination of MD5 and PHPass.
 - MD5 is not a suitable cryptographic algorithm for storing in a database. Another encryption method will be introduced and recommended after step 2. 
+
 ![wp_plugin](./assets/wp_login.png)
 - After inserting the information, Press "Install WordPress" and login to your account you just created.
 
