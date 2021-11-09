@@ -87,10 +87,3 @@ again a few more times.
 `./wordpress:/var/www/html`
 `./plugins:/var/www/html/wp-content/plugins`
 
-It is possible to pre-load plugins into the `wp-content/plugins/` directory by using WordPress environment variable, WP_PLUGINS.
- 
-For example:
-`WP_PLUGINS: "nginx-helper redis-cache MailPoet my-other-plugin"`
- 
-By default it is set to `WP_PLUGINS="nginx-helper redis-cache MailPoet"` as these plugins are core to the operation of this container. Plugins will only be installed the first time the container is run.
-
