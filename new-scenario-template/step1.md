@@ -46,7 +46,6 @@ services:
       WORDPRESS_DB_HOST: "mysql-server:3306"
       WORDPRESS_DB_PASSWORD: secret
       WORDPRESS_DB_USER: wordpress_user
-      WP_PLUGINS: "nginx-helper redis-cache mailgun better-passwords better-wp-security woocommerce woocommerce-payments users-customers-import-export-for-wp-commerce"
     image: "wordpress:latest"
     ports: 
       - "20080:80"
