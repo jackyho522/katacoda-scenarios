@@ -29,9 +29,10 @@ https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
 - Extra plugins (PHP code) can do the encryption.
 
 Press import
-
+![webtoffee](./assets/webtoffeeimex.png)
 
 Drag the csv file from the above link
+![webtoffee](./assets/webtoffeedrag.png)
 
 
 
