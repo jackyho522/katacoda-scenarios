@@ -23,10 +23,10 @@ Template type:
 - Customer example csv file can be downloaded in here:
 https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
 19 customers in the csv file.
-You can map your custom csv file columes to WordPress MySQL table columes. For example, ID, Customer_ID, User Login etc. 
-The data of your csv file will automatically insert to WordPress wp_users, wp_usermeta table.
-Using plugins to import and export data is recommended. Using MySQL to insert and delete data IN MySQL CLI is not recommended.
-Extra plugins (PHP code) can do the encryption.
+- You can map your custom csv file columes to WordPress MySQL table columes. For example, ID, Customer_ID, User Login etc. 
+- The data of your csv file will automatically insert to WordPress wp_users, wp_usermeta table.
+- Using plugins to import and export data is recommended. Using MySQL to insert and delete data IN MySQL CLI is not recommended.
+- Extra plugins (PHP code) can do the encryption.
 
 
 
