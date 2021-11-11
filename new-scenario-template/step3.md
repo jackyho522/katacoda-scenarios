@@ -3,6 +3,11 @@
 WooCommerce allows you to import and export products by using CSV files, but unfortunately user roles cannot be imported or exported except extra plugins are used
 In this scenario, WebToffee plugin(free version) will be used to demonstrate. Free version plugin only allow users to import and export customer or user role.
 
+## Add new product
+There is a Add New Product Page in Products. You can add name of product, description of product, regular price, sale price.
+
+You can do the above automatically by using CSV files.
+
 ## Preparation
 - CSV files are needed. 
 
