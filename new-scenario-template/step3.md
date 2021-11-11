@@ -8,6 +8,8 @@ There is a Add New Product Page in Products. You can add name of product, descri
 
 You can do the above automatically by using CSV files.
 
+![addnew](./assets/addnew_gui.png)
+
 ## Preparation
 - CSV files are needed. 
 
