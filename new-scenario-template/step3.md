@@ -31,11 +31,12 @@ Template type:
 There are different type of products you can be added in the Add New section in Products page.
 - Simple product
 - Grouped product
+   - Products like electronic devices can be grouped. For example, an IPad could be grouped as its storage can be 256GB, 512GB, which are the variations of the same product.
 - External/Affiliate product
    - The metabox will changed. Shipping section will be removed. The Product URl field will be added to lead customers to buy the product.
 - Variable product
    - In this scenario, most of the products will be variable. It is because these products have different price, color, sizes etc.
-      - They need a different SKU to identify.
+      - They need a different SKU to identify. A SIMPLE product have only one SKU, like a book. There is no other variations.
 
 You can add the following information:
 
@@ -84,8 +85,11 @@ Example:
 
 Example:
 
-
-
+## Advanced
+- Purchase note 
+   - an optional note for customers after they purchase the product.
+- Menu order  
+- Enable reviews
 
 
 
