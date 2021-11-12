@@ -27,6 +27,47 @@ Template type:
 
 ![template_type](./assets/template_type.png)
 
+## Further explaination
+Products can be added in the Add New section in Products page. You can add the following information:
+
+## Product title and description 
+- Product name
+- Product description
+
+## General section 
+- Regular price
+- Sale price 
+   - schedule from when to when
+- Tax status
+- Tax class 
+## Inventory section 
+- Inventory SKU 
+  - a unique indentifier for each distinct product and service that can be purchased)
+  - You can keep track the inventory
+- Enable Stock Management 
+    - must be selected in order to manage it
+- Stock quantity 
+- Allow backorders 
+  - Customers can buy backordered items on a website, but they won't be delivered until they are back in stock
+- Low stock threshold
+  - you will be notified by email when the stock number is lower than an amount
+- sold individually 
+
+## Shipping section 
+- weight
+- Dimensions
+- Shipping class
+
+## Linked product
+- Upsells (promote your other products) and cross-sells (related products)
+Example:
+
+
+
+
+
+
+
 - Customer example csv file can be downloaded in here:
 https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
 19 customers in the csv file.
