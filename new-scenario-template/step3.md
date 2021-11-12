@@ -67,10 +67,12 @@ Example:
 
 ## Attributes and variation
 - You can assign details to a product, such as Color, Size by adding custom product attribute
+- 
 Example:
 
 
 - You can also set the default values. This 2 will be pre-selected.
+- 
 Example:
 
 
