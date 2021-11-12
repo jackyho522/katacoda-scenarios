@@ -7,10 +7,10 @@ WordPress is a software for people to setup websites, but it may suffer several 
 ![wp_plugin](./assets/wp_plugin.png)
 
 - Type iThemes Security in the search bar and click install now.
-![wp_ithemes_security](./assets/wp_ithemes_security.png)
+![wp_ithemes_security](./assets/wp_ithemes_security1.png)
 
 - After installion, click Activate 
-![wp_activate_ithemes_plugin](./assets/wp_activate_ithemes_plugin.png)
+![wp_activate_ithemes_plugin](./assets/wp_activate_ithemes_plugin1.png)
 
 
 
