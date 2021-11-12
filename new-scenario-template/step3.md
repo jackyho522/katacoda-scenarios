@@ -92,7 +92,7 @@ Example:
 - Enable reviews
 
 
-The above information can be added by csv file. The sample csv file can be downloaded from woocommerce github. 
+The above information can be added by a csv file. The sample csv file can be downloaded from woocommerce github. 
 You can select fields from your CSV file to map against products fields. 
 https://github.com/woocommerce/woocommerce/blob/master/sample-data/sample_products.csv
 
@@ -111,7 +111,29 @@ Press import
 Drag the csv file from the above link
 ![webtoffee](./assets/webtoffeedrag.png)
 
+## Further explaination
 
+## Product title and description 
+- ID
+- customer_id
+- user_login, user_pass, user_nicename, user_email, user_url, user_registered
+- display_name
+- first_name, last_name
+- user_status
+- roles
+- nickname
+- description
+- rich_editing, syntax_highlighting
+- admin_color
+- use_ssl
+- show_admin_bar_front
+- locale
+- wp_user_level
+- dismissed_wp_pointers
+- show_welcome_panel
+- session_tokens
+- last_update
+- billing information and shipping information
 
 
 
