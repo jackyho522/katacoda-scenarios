@@ -113,7 +113,6 @@ Drag the csv file from the above link
 
 ## Further explaination
 
-## Product title and description 
 - ID
 - customer_id
 - user_login, user_pass, user_nicename, user_email, user_url, user_registered
