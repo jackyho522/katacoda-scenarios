@@ -35,6 +35,9 @@ The Two-factor methods include mobile app, email and backup codes.
 If the user password is weak, It will force the user to change a strong password.
 ![wp_change_pw](./assets/wp_change_pw.png)
 
+## Prevent Unauthorized Login (Brute force attack)
+When an attacker performs brute force attack on your WordPress site, iThemes Security can log it.
+![wp_iSecurity_log](./assets/wp_iSecurity_log.png)
 
-
-
+Also, iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
+![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
