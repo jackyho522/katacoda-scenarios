@@ -50,14 +50,14 @@ You can add the following information:
 ## Inventory section 
 - Inventory SKU 
   - a unique indentifier for each distinct product and service that can be purchased)
-  - You can keep track the inventory
+  - You can keep track the inventory.
 - Enable Stock Management 
     - must be selected in order to manage it
 - Stock quantity 
 - Allow backorders 
-  - Customers can buy backordered items on a website, but they won't be delivered until they are back in stock
+  - Customers can buy backordered items on a website, but they won't be delivered until they are back in stock.
 - Low stock threshold
-  - you will be notified by email when the stock number is lower than an amount
+  - you will be notified by email when the stock number is lower than an amount.
 - sold individually 
 
 ## Shipping section 
