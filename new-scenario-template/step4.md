@@ -25,7 +25,7 @@ You can configure this plugin based on your preferences.
 After configuration, click Secure Site to complete the setup.
 ![wp_Secure_Site](./assets/wp_Secure_Site.png)
 
-## Verify the itheme Security is running
+## Verify the itheme Security features
 When users try to login to WordPress, user can set up Two-factor to protect their accounts.
 ![wp_two_factor1](./assets/wp_two_factor1.png)
 
