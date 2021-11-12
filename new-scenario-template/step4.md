@@ -54,4 +54,9 @@ Type Password bcrypt in the search bar and click install now.
 After installation and clicking Activate, the plugin will encrypt the password immediately.
 ![wp_Password_bcrypt_Activate](./assets/wp_Password_bcrypt_Activate.png)
  
+Alternatively, download "wp-password-bcrypt.php" file from the plugin's github site.
+Create folder "mu-plugins" in wp-content folder and copy the php file downloaded in the folder.
+![bcrypt_download](./assets/bcrypt_download.png)
 
+The plugin will becomes must-use plugin in WordPress, which can also encrypt the password.
+![bcrypt_verifyinstall](./assets/bcrypt_verifyinstall.png)
