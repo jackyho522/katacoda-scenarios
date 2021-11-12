@@ -60,7 +60,7 @@ You can add the following information:
 - sold individually 
 
 ## Shipping section 
-- weight
+- Weight
 - Dimensions
 - Shipping class
 
