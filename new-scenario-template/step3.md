@@ -60,6 +60,16 @@ Products can be added in the Add New section in Products page. You can add the f
 
 ## Linked product
 - Upsells (promote your other products) and cross-sells (related products)
+   - you may want your customers to buy, for example: if the customer is viewing tea kettles, you may want to display tea bags.
+
+Example:
+
+
+## Attributes and variation
+- You can assign details to a product, such as Color, Size by adding custom product attribute
+Example:
+
+- You can also set the default values. This 2 will be pre-selected.
 Example:
 
 
