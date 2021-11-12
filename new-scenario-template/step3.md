@@ -32,6 +32,7 @@ There are different type of products you can be added in the Add New section in 
 - Simple product
 - Grouped product
 - External/Affiliate product
+   - The metabox will changed. Shipping section will be removed. The Product URl field will be added to lead customers to buy the product.
 - Variable product
 
 You can add the following information:
