@@ -92,8 +92,11 @@ Example:
 - Enable reviews
 
 
+The above information can be added by csv file. The sample csv file can be downloaded from woocommerce github. 
+You can select fields from your CSV file to map against products fields. 
+https://github.com/woocommerce/woocommerce/blob/master/sample-data/sample_products.csv
 
-
+## Add new users
 - Customer example csv file can be downloaded in here:
 https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
 19 customers in the csv file.
