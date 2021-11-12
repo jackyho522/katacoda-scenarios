@@ -34,6 +34,8 @@ There are different type of products you can be added in the Add New section in 
 - External/Affiliate product
    - The metabox will changed. Shipping section will be removed. The Product URl field will be added to lead customers to buy the product.
 - Variable product
+   - In this scenario, most of the products will be variable. It is because these products have different price, color, sizes etc.
+      - They need a different SKU to identify.
 
 You can add the following information:
 
