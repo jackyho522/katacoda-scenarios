@@ -116,7 +116,6 @@ Drag the csv file from the above link
 - ID
    - It is a primary key of wordpress user table. 
 - customer_id
-   - 
 - user_login, user_pass, user_nicename, user_email, user_url, user_registered
 - display_name
 - first_name, last_name
