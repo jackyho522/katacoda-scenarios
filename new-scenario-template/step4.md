@@ -48,5 +48,10 @@ Also, iThemes Security prevents brute force attacks because of two-factor authen
 Password bcrypt is WordPress plugin to replace WP's outdated and insecure MD5-based password hashing with the modern and secure bcrypt.
 
 ## Installation
+Type Password bcrypt in the search bar and click install now.
+![wp_Password_bcrypt](./assets/wp_Password_bcrypt.png)
 
+After installation and clicking Activate, the plugin will encrypt the password immediately.
+![wp_Password_bcrypt_Activate](./assets/wp_Password_bcrypt_Activate.png)
+ 
 
