@@ -28,7 +28,13 @@ Template type:
 ![template_type](./assets/template_type.png)
 
 ## Further explaination
-Products can be added in the Add New section in Products page. You can add the following information:
+There are different type of products you can be added in the Add New section in Products page.
+- Simple product
+- Grouped product
+- External/Affiliate product
+- Variable product
+
+You can add the following information:
 
 ## Product title and description 
 - Product name
@@ -67,12 +73,12 @@ Example:
 
 ## Attributes and variation
 - You can assign details to a product, such as Color, Size by adding custom product attribute
-- 
+
 Example:
 
 
 - You can also set the default values. This 2 will be pre-selected.
-- 
+
 Example:
 
 
