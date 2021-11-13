@@ -1,4 +1,4 @@
-# Step 4 - Imporve WordPress Security
+# Step 4 - Improve WordPress Security
 
 WordPress is software for people to set up websites, but it may suffer several attacks, such as Brute force attacks by attackers. It is necessary to Improve WordPress Security. In this scenario, the iThemes Security plugin and Password bcrypt plugin will be used to improve WordPress Security.
 # iThemes Securit
