@@ -82,7 +82,8 @@ Example:
 
 It is possible to add users into ban list. Default ban list is not recommended. It is very old and no longer supported. 
 Example:
-image here
+
+![addban](./assets/addban.png)
 
 iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
 ![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
