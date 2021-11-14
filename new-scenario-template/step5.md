@@ -9,7 +9,7 @@ Grafana is an open source visualization and analytics software which allows you 
 Press the dashboard named "Port 3000". It will lead you to Grafana login page.
 ![Port_3000](./assets/Port_3000.png)
 
-Second, type admin as username and password to login. It is the default identification. You can change it after logging in.
+Type admin as username and password to login. It is the default identification. You can change it after logging in.
 ![grafana_login](./assets/grafana_login.png)
 
 Before you monitor the database, you need to add a data source.
@@ -20,7 +20,7 @@ Example:
 
 ![Create_Dashboard](./assets/Create_Dashboard.png)
 
-Then, click add an empty panel to add a panel
+Click add an empty panel to add a panel
 Example:
 
 ![add_panel](./assets/add_panel.png)
