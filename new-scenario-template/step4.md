@@ -22,7 +22,7 @@ Choose ECOMMERCE type to set up the plugin.
 In this scenario, choose self and choose the correct role for customers
 
 ![wp_selfclient](./assets/selfclient.png)
-![wp_customers](./assets/selectcustomer)
+![wp_customers](./assets/selectcustomer.png)
 
 This plugin can force users to use a strong password. As mentioned in step 2, it analyzes patterns in the password to prevent dictionary attack.
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
