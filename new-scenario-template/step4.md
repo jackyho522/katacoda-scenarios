@@ -83,7 +83,7 @@ Example:
 You can also configure the login attempts to reduce risk. Using admin as username is not a good security practice. As a hacker perpective, username "admin" is too obvious and let hackers easy to guess it. It will greatly increase the chance of hackers to attack your website.
 iThemes security allow you to automatically ban "admin" user and limit max login attempts. 
 
-Press gear icon in thhe Lockouts page:
+Press gear icon in the Lockouts page:
 
 ![wp_gear](./assets/attempts0.png)
 
@@ -101,7 +101,7 @@ iThemes Security prevents brute force attacks because of two-factor authenticati
 ![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
 
 # Password bcrypt
-Password bcrypt is WordPress plugin to replace WP's outdated and insecure MD5-based password hashing with the modern and secure bcrypt.
+Password bcrypt is a WordPress plugin to replace WordPress's outdated and insecure MD5-based password hashing with a modern and more secure encryption method, bcrypt.
 
 ## Installation
 Type Password bcrypt in the search bar and click install now.
