@@ -1,4 +1,4 @@
-# Step 4 - Improve WordPress Security
+'# Step 4 - Improve WordPress Security
 
 WordPress is open-source content management system for people to set up websites, but it may suffer several attacks, such as brute force attacks by attackers. It is necessary to improve WordPress Security. In this scenario, the iThemes Security plugin and Password bcrypt plugin will be used to improve WordPress Security.
 # iThemes Security
@@ -53,6 +53,7 @@ Include mobile app, email and backup codes:
 ![wp_two_factor2](./assets/wp_two_factor2.png)
 
 The mobile app choice will generate QR code. After users scan the QR code, enter the authentication code.
+
 Example:
 
 ![wp_QR](./assets/QRcode.png)
@@ -81,6 +82,7 @@ Example:
 ![wp_attempts](./assets/attempts.png)
 
 It is possible to add users into ban list. Default ban list is not recommended. It is very old and no longer supported. 
+
 Example:
 
 ![addban](./assets/addban.png)
