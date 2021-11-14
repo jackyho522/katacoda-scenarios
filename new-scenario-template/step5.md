@@ -115,13 +115,16 @@ Password bcrypt is a WordPress plugin to replace WordPress's outdated and insecu
 
 ## Installation
 Type Password bcrypt in the search bar and click install now.
+
 ![wp_Password_bcrypt](./assets/wp_Password_bcrypt.png)
 
-After installation and clicking Activate, the plugin will encrypt the password immediately.
+After installation and clicking Activate, the plugin will not encrypt the password immediately. The password stored in the database will still use MD5 encryption (assuming no password plugins/php code is installed or running). These password need to be reset again to apply new encryption method.
+
 ![wp_Password_bcrypt_Activate](./assets/wp_Password_bcrypt_Activate.png)
  
 Alternatively, download "wp-password-bcrypt.php" file from the plugin's github site.
 Create folder "mu-plugins" in wp-content folder and copy the php file downloaded in the folder.
+
 ![bcrypt_download](./assets/bcrypt_download.PNG)
 
 The plugin will becomes must-use plugin in WordPress, which can also encrypt the password.
