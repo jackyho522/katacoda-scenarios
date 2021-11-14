@@ -15,14 +15,21 @@ Type iThemes Security in the search bar and click install now.
 After installation, click Activate.
 ![wp_activate_ithemes_plugin](./assets/wp_activate_ithemes_plugin1.png)
 
-Press Security on the left of the WordPress menu and choose ECOMMERCE type to set up the plugin.
+Press Security on the left of the WordPress menu.
+Choose ECOMMERCE type to set up the plugin.
 ![wp_iSecurity](./assets/wp_iSecurity.png)
+
+In this scenario, choose self and choose the correct role for customers
+image here
 
 This plugin can force users to use a strong password. As mentioned in step 2, it analyzes patterns in the password to prevent dictionary attack.
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
 
 You can enable Two-Factor features to make your WordPress user accounts more secure.
 ![wp_two_factor](./assets/wp_two_factor.png)
+
+Free version of iThemes can allow the website to prevent brute force attacks.
+image here
 
 You can double check your secure setting by this overview page.
 After finishing the configuration, click Secure Site to complete the setup.
