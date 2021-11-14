@@ -17,7 +17,7 @@ FROM mysql.general_log
 WHERE command_type LIKE 'connect'
 ORDER by event_time desc;
 </pre>
-![wp_plugin](./assets/grafana_login.png)
+![wp_plugin](./assets/grafana_logged.png)
 
 ### Recently left in users(Table)
 copy the SQL
