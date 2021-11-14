@@ -55,7 +55,8 @@
    },
    "files":[
       "docker-compose.yml",
-      "/cfg/my.cnf"
+      "/cfg/my.cnf",
+      "/scripts/permission.sql"
    ],
    "backend":{
       "imageid":"ubuntu:2004"
