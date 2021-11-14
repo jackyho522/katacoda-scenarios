@@ -20,7 +20,9 @@ Choose ECOMMERCE type to set up the plugin.
 ![wp_iSecurity](./assets/wp_iSecurity.png)
 
 In this scenario, choose self and choose the correct role for customers
-image here
+
+![wp_selfclient](./assets/selfclient.png)
+![wp_customers](./assets/selectcustomer)
 
 This plugin can force users to use a strong password. As mentioned in step 2, it analyzes patterns in the password to prevent dictionary attack.
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
@@ -28,12 +30,19 @@ This plugin can force users to use a strong password. As mentioned in step 2, it
 You can enable Two-Factor features to make your WordPress user accounts more secure.
 ![wp_two_factor](./assets/wp_two_factor.png)
 
-Free version of iThemes can allow the website to prevent brute force attacks.
-image here
+Free version of iThemes can allow the website to prevent LOCAL brute force attacks.
+
+Local Brute Force and Network Brute Force:
+
+![wp_lockout](./assets/lockouts.png)
 
 You can double check your secure setting by this overview page.
 After finishing the configuration, click Secure Site to complete the setup.
 ![wp_Secure_Site](./assets/wp_Secure_Site.png)
+
+You can view the dashboard here:
+
+![dashboard](./assets/dashboard1.png)
 
 ## Verify itheme Security features
 When users try to login to WordPress, user can set up two-factor authentication to protect their accounts.
@@ -46,7 +55,7 @@ Include mobile app, email and backup codes:
 The mobile app choice will generate QR code. After users scan the QR code, enter the authentication code.
 Example:
 
-Image here
+![wp_QR](./assets/QRcode.png)
 
 If the users' password is weak, It will force the user to change a strong password.
 
