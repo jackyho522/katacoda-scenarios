@@ -21,14 +21,14 @@ Press Security on the left of the WordPress menu and choose ECOMMERCE type to se
 This plugin can force users to use a strong password.
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
 
-Also, you can enable Two-Factor features to make your WordPress more secure.
+You can enable Two-Factor features to make your WordPress more secure.
 ![wp_two_factor](./assets/wp_two_factor.png)
 
 You can configure this plugin based on your preferences.
 After configuration, click Secure Site to complete the setup.
 ![wp_Secure_Site](./assets/wp_Secure_Site.png)
 
-## Verify the itheme Security features
+## Verify itheme Security features
 When users try to login to WordPress, user can set up Two-factor to protect their accounts.
 ![wp_two_factor1](./assets/wp_two_factor1.png)
 
