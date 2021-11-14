@@ -144,5 +144,5 @@ You can see that PASSWORD_DEFAULT is used
 
 image here
 
-![bcrypt_code](./assets/bcrypt_code.PNG)
+![bcrypt_code](./assets/bcrypt_code.png)
 
