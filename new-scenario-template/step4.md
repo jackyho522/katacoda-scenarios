@@ -1,5 +1,6 @@
 <!-- README.md is generated from mysql_limit_permission.Rmd. Please edit that file -->
-# Create users, role and grant appropriate permission to users
+## MySQL security
+## Create users, role and grant appropriate permission to users
 
 ## Task
 1. There is a file, init.sql
