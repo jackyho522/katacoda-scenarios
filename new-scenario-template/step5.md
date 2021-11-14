@@ -1,4 +1,4 @@
-# Step 5 - monitoring the WordPress detail
+# Step 5 - Monitoring the WordPress
 
 When WordPress application is running, it will log the event. In this scenario, we will use grafana to visualize the log.
 
