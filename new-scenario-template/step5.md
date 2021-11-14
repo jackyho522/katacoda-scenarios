@@ -137,6 +137,8 @@ It is possible to override them.
 
 PASSWORD_DEFAULT is used which uses bcrypt algorithm. According to php manual, 255 characters would be a good choice because it will expand the hash length.
 
+Details: https://www.php.net/manual/en/function.password-hash.php
+
 Looking source code of wp-password-bcrypt.php:
 You can see that PASSWORD_DEFAULT is used
 
