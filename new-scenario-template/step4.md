@@ -48,6 +48,8 @@ After finishing the configuration, click Secure Site to complete the setup.
 
 You can view the dashboard here:
 
+![dashboard_menu](./assets/dashboard_menu.png)
+
 ![dashboard](./assets/dashboard1.png)
 
 ## Verify itheme Security features
