@@ -148,6 +148,10 @@ Drag the csv file from the above link
 - roles
    - Role of user (customer, administrator etc)
    - You can add custom roles by using extra plugins.
+- wp_user_level
+   - Level of user, the higher the level, the more permission they have.
+   - The admin user will be level 10. It will see every user in a WordPress blog. The admin user can add, edit, delete, promote, and demote any user. 
+   - You can ONLY edit levels in dashboard by using extra plugins.
 - nickname
    - Nickname of user.
 - description
@@ -157,18 +161,19 @@ Drag the csv file from the above link
 - admin_color
    - It will change the color of WordPress admin dashboard. Some roles like customers dont have privilege to dashboard.
    - You can ignore this column and set it to Fresh(default). 
+Example in the admin dashboard:
+
 - use_ssl
    - Whether SSL will be used.
 - show_admin_bar_front
    - To determine whether admin bar will be shown for user.
+Example in main page:
+
 - locale
    - You can change different site language for customers from different countries.
 Example in the admin dashboard:
 
-
-- wp_user_level
-   - Level of user, the higher the level, the more permission they have.
-   - The admin user will be level 10. It will see every user in a WordPress blog. The admin user can add, edit, delete, promote, and demote any user. Only level 10 user can 
+ 
 - dismissed_wp_pointers
    - Dismissing a WordPress pointer.
 - show_welcome_panel
