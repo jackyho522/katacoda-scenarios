@@ -18,29 +18,34 @@ After installation, click Activate.
 Press Security on the left of the WordPress menu and choose ECOMMERCE type to set up the plugin.
 ![wp_iSecurity](./assets/wp_iSecurity.png)
 
-This plugin can force users to use a strong password.
+This plugin can force users to use a strong password. As mentioned in step 2, it analyzes patterns in the password to prevent dictionary attack.
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
 
-You can enable Two-Factor features to make your WordPress more secure.
+You can enable Two-Factor features to make your WordPress user accounts more secure.
 ![wp_two_factor](./assets/wp_two_factor.png)
 
-You can configure this plugin based on your preferences.
-After configuration, click Secure Site to complete the setup.
+You can double check your secure setting by this overview page.
+After finishing the configuration, click Secure Site to complete the setup.
 ![wp_Secure_Site](./assets/wp_Secure_Site.png)
 
 ## Verify itheme Security features
-When users try to login to WordPress, user can set up Two-factor to protect their accounts.
+When users try to login to WordPress, user can set up two-factor authentication to protect their accounts.
 ![wp_two_factor1](./assets/wp_two_factor1.png)
 
-The Two-factor methods include mobile app, email and backup codes.
+Include mobile app, email and backup codes:
+
 ![wp_two_factor2](./assets/wp_two_factor2.png)
 
-If the user password is weak, It will force the user to change a strong password.
+If the users' password is weak, It will force the user to change a strong password.
+
 ![wp_change_pw](./assets/wp_change_pw.png)
 
 ## Prevent Unauthorized Login (Brute force attack)
-When an attacker performs brute force attack on your WordPress site, iThemes Security can log it.
+When an attacker performs brute force attack on your WordPress site, iThemes Security can detect and log it.
 ![wp_iSecurity_log](./assets/wp_iSecurity_log.png)
+
+Example:
+
 
 Also, iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
 ![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
