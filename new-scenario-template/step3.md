@@ -42,7 +42,7 @@ Different product types:
 
 ![product_addnew](./assets/product_addnew.png)
 
-You can add the following information:
+## You can add the following information:
 
 ## Product title and description 
 - Product name
