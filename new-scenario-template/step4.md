@@ -43,6 +43,11 @@ Include mobile app, email and backup codes:
 
 ![wp_two_factor2](./assets/wp_two_factor2.png)
 
+The mobile app choice will generate QR code. After users scan the QR code, enter the authentication code.
+Example:
+
+Image here
+
 If the users' password is weak, It will force the user to change a strong password.
 
 ![wp_change_pw](./assets/wp_change_pw.png)
@@ -50,6 +55,7 @@ If the users' password is weak, It will force the user to change a strong passwo
 ## Prevent Unauthorized Login 
 iThemes provide a simple dashboard.
 Dashboard view:
+
 image here
 
 When an attacker performs brute force attack on your WordPress site, iThemes Security can detect and log it.
