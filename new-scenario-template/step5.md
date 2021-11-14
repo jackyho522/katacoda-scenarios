@@ -118,7 +118,7 @@ Type Password bcrypt in the search bar and click install now.
 
 ![wp_Password_bcrypt](./assets/wp_Password_bcrypt.png)
 
-After installation and clicking Activate, the plugin will not encrypt the password immediately. The password stored in the database will still use MD5 encryption (assuming no password plugins/php code is installed or running). These password need to be reset again to apply new encryption method.
+After installation and clicking Activate, the plugin will not encrypt the password immediately. The password stored in the database will still use MD5 encryption (assuming no password plugins/php code is installed or running). The password is only re-hashed with bcrypt after they log in.
 
 ![wp_Password_bcrypt_Activate](./assets/wp_Password_bcrypt_Activate.png)
  
@@ -129,3 +129,18 @@ Create folder "mu-plugins" in wp-content folder and copy the php file downloaded
 
 The plugin will becomes must-use plugin in WordPress, which can also encrypt the password.
 ![bcrypt_verifyinstall](./assets/bcrypt_verifyinstall.PNG)
+
+# How does it work
+
+wp_check_password and wp_hash_password are old functions and are still using MD5, but WordPress made this 2 functions pluggable.
+It is possible to override them.
+
+PASSWORD_DEFAULT is used which uses bcrypt algorithm. According to php manual, 255 characters would be a good choice because it will expand the hash length.
+
+Looking source code of wp-password-bcrypt.php:
+You can see that PASSWORD_DEFAULT is used
+
+image here
+
+
+
