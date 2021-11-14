@@ -93,6 +93,7 @@ You can add the following information:
 ![attributes](./assets/attributes.png)
 
 Example:
+
 ![attributes2](./assets/defaultvalues.png)
 
 - You can also set the default values. This 2 (Black L) will be pre-selected.
