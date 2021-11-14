@@ -78,11 +78,11 @@ Looking from hacker perspective:
 
 wordlist contains administrator password for demonstration:
 
-image 
+![hack1](./assets/hack1.png)
 
 Brute force process:
 
-image
+![hack1](./assets/hack2.png)
 
 In the dashboard
 
