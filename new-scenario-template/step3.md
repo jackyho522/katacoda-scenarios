@@ -161,7 +161,14 @@ Drag the csv file from the above link
 - admin_color
    - It will change the color of WordPress admin dashboard. Some roles like customers dont have privilege to dashboard.
    - You can ignore this column and set it to Fresh(default). 
-Example in the admin dashboard:
+   
+The column is same as this option in the admin dashboard:
+
+![color](./assets/colorscheme.png)
+
+Purple color:
+
+![purple](./assets/purple.png)
 
 - use_ssl
    - Whether SSL will be used.
@@ -174,7 +181,7 @@ Example in main page:
    
 The column is same as this option in setting of the admin dashboard:
 
-
+![sitelanguage](./assets/sitelanguage.png)
  
 - dismissed_wp_pointers
    - Dismissing a WordPress pointer.
