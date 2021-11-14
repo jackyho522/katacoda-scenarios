@@ -25,19 +25,24 @@ In this scenario, choose self and choose the correct role for customers
 ![wp_customers](./assets/selectcustomer.png)
 
 This plugin can force users to use a strong password. As mentioned in step 2, it analyzes patterns in the password to prevent dictionary attack.
+
 ![wp_Strong_pw](./assets/wp_Strong_pw.png)
 
-You can enable Two-Factor features to make your WordPress user accounts more secure.
+In Login Security, you can enable Two-Factor features to make your WordPress user accounts more secure.
+
 ![wp_two_factor](./assets/wp_two_factor.png)
 
 Free version of iThemes can allow the website to prevent LOCAL brute force attacks.
 
 Local Brute Force and Network Brute Force:
+Both enabled:
 
 ![wp_lockout](./assets/lockouts.png)
 
 You can double check your secure setting by this overview page.
+
 After finishing the configuration, click Secure Site to complete the setup.
+
 ![wp_Secure_Site](./assets/wp_Secure_Site.png)
 
 You can view the dashboard here:
@@ -63,12 +68,10 @@ If the users' password is weak, It will force the user to change a strong passwo
 ![wp_change_pw](./assets/wp_change_pw.png)
 
 ## Prevent Unauthorized Login 
-iThemes provide a simple dashboard.
-Dashboard view:
-
-image here
 
 When an attacker performs brute force attack on your WordPress site, iThemes Security can detect and log it.
+
+In the dashboard
 
 Example:
 
@@ -77,7 +80,9 @@ Example:
 You can also configure the login attempts to reduce risk. Using admin as username is not a good security practice. As a hacker perpective, username "admin" is too obvious and let hackers easy to guess it. It will greatly increase the chance of hackers to attack your website.
 iThemes security allow you to automatically ban "admin" user and limit max login attempts. 
 
-Example:
+Press gear icon in thhe Lockouts page:
+
+image here
 
 ![wp_attempts](./assets/attempts.png)
 
