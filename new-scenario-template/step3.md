@@ -171,13 +171,15 @@ Example in main page:
 
 - locale
    - You can change different site language for customers from different countries.
-Example in the admin dashboard:
+   
+The column is same as this option in setting of the admin dashboard:
+
 
  
 - dismissed_wp_pointers
    - Dismissing a WordPress pointer.
 - show_welcome_panel
-   - Whether welcome panel will be shown for user
+   - Whether welcome panel will be shown for user.
 - session_tokens
    - Session token of user.
 - last_update
