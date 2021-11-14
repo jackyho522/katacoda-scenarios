@@ -48,8 +48,10 @@ flush privileges;
 </pre>
 
 
-As mentioned in step 1, the sql scripts will be mounted to docker-entrypoint-initdb.d. It is executed the moment your database container starts running. 
-`./scripts:/docker-entrypoint-initdb.d` 
+As mentioned in step 1, the sql scripts will be mounted to docker-entrypoint-initdb.d
+In docker-compose.yml, `./scripts:/docker-entrypoint-initdb.d`. 
+
+It is executed the moment your database container starts running. 
 
 You need to `docker-compose down`{{execute}} and `docker-compose up`{{execute}} again in order to make the script work.
 
