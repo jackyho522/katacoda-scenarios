@@ -35,6 +35,7 @@ In Login Security, you can enable Two-Factor features to make your WordPress use
 Free version of iThemes can allow the website to prevent LOCAL brute force attacks.
 
 Local Brute Force and Network Brute Force:
+
 Both enabled:
 
 ![wp_lockout](./assets/lockouts.png)
