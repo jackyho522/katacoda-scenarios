@@ -47,14 +47,28 @@ If the users' password is weak, It will force the user to change a strong passwo
 
 ![wp_change_pw](./assets/wp_change_pw.png)
 
-## Prevent Unauthorized Login (Brute force attack)
+## Prevent Unauthorized Login 
+iThemes provide a simple dashboard.
+Dashboard view:
+image here
+
 When an attacker performs brute force attack on your WordPress site, iThemes Security can detect and log it.
-![wp_iSecurity_log](./assets/wp_iSecurity_log.png)
 
 Example:
 
+![wp_iSecurity_log](./assets/wp_iSecurity_log.png)
 
-Also, iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
+You can also configure the login attempts to reduce risk. Using admin as username is not a good security practice. As a hacker perpective, username "admin" is too obvious and let hackers easy to guess it. It will greatly increase the chance of hackers to attack your website.
+iThemes security allow you to automatically ban "admin" user and limit max login attempts. 
+
+Example:
+image here
+
+It is possible to add users into ban list. Default ban list is not recommended. It is very old and no longer supported. 
+Example:
+image here
+
+iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
 ![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
 
 # Password bcrypt
