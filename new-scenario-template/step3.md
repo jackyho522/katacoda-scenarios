@@ -174,7 +174,16 @@ Purple color:
    - Whether SSL will be used.
 - show_admin_bar_front
    - To determine whether admin bar will be shown for user.
+   
 Example in main page:
+
+show_admin_bar_front = false:
+
+![bar1](./assets/nobar.png)
+
+show_admin_bar_front = true:
+
+![bar2](./assets/havebar.png)
 
 - locale
    - You can change different site language for customers from different countries.
