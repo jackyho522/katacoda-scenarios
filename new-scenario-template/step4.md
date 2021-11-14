@@ -74,6 +74,16 @@ If the users' password is weak, It will force the user to change a strong passwo
 
 When an attacker performs brute force attack on your WordPress site, iThemes Security can detect and log it.
 
+Looking from hacker perspective:
+
+wordlist contains administrator password for demonstration:
+
+image 
+
+Brute force process:
+
+image
+
 In the dashboard
 
 Example:
@@ -97,8 +107,6 @@ Example:
 
 ![addban](./assets/addban.png)
 
-iThemes Security prevents brute force attacks because of two-factor authentication and strong password.
-![wp_iSecurity_2A](./assets/wp_iSecurity_2A.png)
 
 # Password bcrypt
 Password bcrypt is a WordPress plugin to replace WordPress's outdated and insecure MD5-based password hashing with a modern and more secure encryption method, bcrypt.
