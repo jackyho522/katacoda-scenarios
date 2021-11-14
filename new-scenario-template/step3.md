@@ -147,6 +147,7 @@ Drag the csv file from the above link
    - The user_status column in the wp_users table is no longer used by WordPress. You can ignore this column.
 - roles
    - Role of user (customer, administrator etc)
+   - You can add custom roles by using extra plugins.
 - nickname
    - Nickname of user.
 - description
@@ -154,15 +155,20 @@ Drag the csv file from the above link
 - rich_editing, syntax_highlighting
    - To determine whether the user can use visual editior or syntax hightlighter.
 - admin_color
-   - Admin color scheme, by default fresh is the color scheme used.
+   - It will change the color of WordPress admin dashboard. Some roles like customers dont have privilege to dashboard.
+   - You can ignore this column and set it to Fresh(default). 
 - use_ssl
    - Whether SSL will be used.
 - show_admin_bar_front
    - To determine whether admin bar will be shown for user.
 - locale
-   - Locale of user.
+   - You can change different site language for customers from different countries.
+Example in the admin dashboard:
+
+
 - wp_user_level
    - Level of user, the higher the level, the more permission they have.
+   - The admin user will be level 10. It will see every user in a WordPress blog. The admin user can add, edit, delete, promote, and demote any user. Only level 10 user can 
 - dismissed_wp_pointers
    - Dismissing a WordPress pointer.
 - show_welcome_panel
