@@ -39,6 +39,7 @@ There are different type of products you can be added in the Add New section in 
       - They need a different SKU to identify. A SIMPLE product have only one SKU, like a book. There is no other variations.
       
 Different product types:
+
 ![product_addnew](./assets/product_addnew.png)
 
 You can add the following information:
@@ -46,6 +47,7 @@ You can add the following information:
 ## Product title and description 
 - Product name
 - Product description
+
 ![product](./assets/productnamedesc.png)
 
 ## General section 
@@ -54,6 +56,7 @@ You can add the following information:
    - schedule from when to when
 - Tax status
 - Tax class 
+
 ![general](./assets/general.png)
 
 ## Inventory section 
@@ -68,21 +71,25 @@ You can add the following information:
 - Low stock threshold
   - you will be notified by email when the stock number is lower than an amount.
 - sold individually 
+
 ![inventory](./assets/inventory.png)
 
 ## Shipping section 
 - Weight
 - Dimensions
 - Shipping class
+
 ![ship](./assets/shipping.png)
 
 ## Linked product
 - Upsells (promote your other products) and cross-sells (related products)
    - you may want your customers to buy, for example: if the customer is viewing tea kettles, you may want to display tea bags.
+   
 ![linkedproduct](./assets/linkedproduct.png)
 
 ## Attributes and variation
 - You can assign details to a product, such as Color, Size by adding custom product attribute
+
 ![attributes](./assets/attributes.png)
 
 Example:
@@ -96,11 +103,13 @@ Example:
    - an optional note for customers after they purchase the product.
 - Menu order  
 - Enable reviews
+
 ![advanced](./assets/advanced.png)
 
 The above information can be added by a csv file. The sample csv file can be downloaded from woocommerce github. 
 You can select fields from your CSV file to map against products fields. 
 https://github.com/woocommerce/woocommerce/blob/master/sample-data/sample_products.csv
+
 ![csv](./assets/csv_example_colume.png)
 
 ## Add new users
@@ -113,9 +122,11 @@ https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
 - Extra plugins (PHP code) can do the encryption.
 
 Press import
+
 ![webtoffee](./assets/webtoffeeimex.png)
 
 Drag the csv file from the above link
+
 ![webtoffee](./assets/webtoffeedrag.png)
 
 ## Further explaination
