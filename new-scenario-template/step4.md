@@ -6,6 +6,7 @@ iThemes Security is a plugin used to secure and protect WordPress.
 
 ## Installation and Setting up the iThemes Security plugin
 Press Add New on the left of the WordPress menu.
+
 ![wp_plugin](./assets/wp_plugin.png)
 
 Type iThemes Security in the search bar and click install now.
