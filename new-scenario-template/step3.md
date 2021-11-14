@@ -203,5 +203,4 @@ The column is same as this option in setting of the admin dashboard:
 - billing information and shipping information
    - Information related to billing and shipping of the user.
 
-## MySQL security
 
