@@ -47,7 +47,7 @@ flush privileges;
 </pre>
 
 ## Employees
-![wp_plugin](./assets/employees_tables.png)
+![wp_plugin](./assets/employees_table.png)
 
 ## Users
 Assume our company has 7 employees.
