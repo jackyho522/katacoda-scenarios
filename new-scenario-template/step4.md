@@ -7,7 +7,7 @@
 2. You need to copy the contents to permission.sql in scripts folder.
 3. About the permission.sql, it create users, role and grant the appropriate permission to users.
 
-Copy to permission.sql.sql
+Copy to permission.sql
 
 <pre class="file">
 create user 'slfok'@'%' identified by '9Kv6UKrQWtqLDVaz';
@@ -47,6 +47,12 @@ GRANT SELECT ON wordpress.wp_woocommerce_tax_rates TO 'sal_mar';
 flush privileges;
 </pre>
 
+
+As mentioned in step 1, the sql scripts will be mounted to docker-entrypoint-initdb.d. It is executed the moment your database container starts running. 
+`./scripts:/docker-entrypoint-initdb.d` 
+
+You need to `docker-compose down`{{execute}} and `docker-compose up`{{execute}} again in order to make the script work.
+
 ## Employees
 ![wp_plugin](./assets/employees_table.png)
 
@@ -57,8 +63,8 @@ They have corresponding positions(SD/DBA/SEC/SAL_MAR).
 ## Positions & role
 1. SD(Software development team): Develop and maintain the various wordpress customization, custom developed wordpress plugins and woo commerce.
 2. DBA(Database administration): Manage and maintain the database
-3. SEC(Security administration): Secur wordpress, woo commerce, network and database
-4. SAL_MAR(Sales and marketing): support customer, maintain product/pricing data and creating the marketing/promotion campaigns in the wordpress and woo commerce. 
+3. SEC(Security administration): Secure WordPress, WooCommerce, network and database
+4. SAL_MAR(Sales and marketing): Support customer, maintain product/pricing data and creating the marketing/promotion campaigns in the WordPress and WooCommerce. 
 
 ## Grant permission
 1. SD: They need to view various logs and modify some data in the wordpress database to maintain the daily operation of wordpress.
