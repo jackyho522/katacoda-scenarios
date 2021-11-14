@@ -83,7 +83,7 @@ iThemes security allow you to automatically ban "admin" user and limit max login
 
 Press gear icon in thhe Lockouts page:
 
-![wp_gear](./assets/attempt0.png)
+![wp_gear](./assets/attempts0.png)
 
 It will lead to this page:
 
