@@ -3,11 +3,11 @@
 ## Create users, role and grant appropriate permission to users
 
 ## Task
-1. There is a file, init.sql
-2. You need to copy the contents to init.sql in scripts folder.
-3. About the init.sql, it create users, role and grant the appropriate permission to users.
+1. There is a file, called permission.sql
+2. You need to copy the contents to permission.sql in scripts folder.
+3. About the permission.sql, it create users, role and grant the appropriate permission to users.
 
-Copy to init.sql
+Copy to permission.sql.sql
 
 <pre class="file">
 create user 'slfok'@'%' identified by '9Kv6UKrQWtqLDVaz';
