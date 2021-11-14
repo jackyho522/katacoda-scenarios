@@ -5,6 +5,7 @@ cd e-commerce
 mkdir cfg
 mkdir db_data
 touch ./cfg/my.cnf
+touch ./scripts/permission.sql
 mkdir grafana
 mkdir ./grafana/data
 mkdir plugins
