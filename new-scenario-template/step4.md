@@ -84,6 +84,8 @@ Brute force process:
 
 ![hack1](./assets/hack2.png)
 
+The screenshot shown here shows that `Error: Unknown response received Code: 403`. The plugin successfully protected the website.
+
 In the dashboard
 
 Example:
