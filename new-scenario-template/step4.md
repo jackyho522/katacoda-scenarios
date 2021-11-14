@@ -85,9 +85,11 @@ Press gear icon in thhe Lockouts page:
 
 image here
 
+It will lead to this page:
+
 ![wp_attempts](./assets/attempts.png)
 
-It is possible to add users into ban list. Default ban list is not recommended. It is very old and no longer supported. 
+It is possible to add users into ban list in the Lockouts page also. Default ban list is not recommended. It is very old and no longer supported. 
 
 Example:
 
