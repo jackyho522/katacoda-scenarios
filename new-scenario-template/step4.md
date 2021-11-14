@@ -77,7 +77,8 @@ You can also configure the login attempts to reduce risk. Using admin as usernam
 iThemes security allow you to automatically ban "admin" user and limit max login attempts. 
 
 Example:
-image here
+
+![wp_attempts](./assets/attempts.png)
 
 It is possible to add users into ban list. Default ban list is not recommended. It is very old and no longer supported. 
 Example:
