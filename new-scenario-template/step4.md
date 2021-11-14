@@ -1,5 +1,5 @@
 <!-- README.md is generated from mysql_limit_permission.Rmd. Please edit that file -->
-#Step 4 - MySQL security
+# Step 4 - MySQL security
 ## Create users, role and grant appropriate permission to users
 
 ## Task
