@@ -114,26 +114,45 @@ Drag the csv file from the above link
 ## Further explaination
 
 - ID
-   - It is a primary key of wordpress user table. 
+   - It is a primary key of WordPress user table. 
 - customer_id
+   - A customer ID of wordpress user table. 
 - user_login, user_pass, user_nicename, user_email, user_url, user_registered
+   - Columns with customer information such as login name, user password, user nicename etc.
 - display_name
+   - User's display name in WordPress.
 - first_name, last_name
+   - First name and last name of user.
 - user_status
+   - Status of user, can be marked as spam or ham (not spam) in core.
 - roles
+   - Role of user.
 - nickname
+   - Nickname of user.
 - description
+   - Description of user.
 - rich_editing, syntax_highlighting
+   - To determine whether the user can use visual editior or syntax hightlighter.
 - admin_color
+   - Admin color scheme, by default fresh is the color scheme used.
 - use_ssl
+   - Whether SSL will be used.
 - show_admin_bar_front
+   - To determine whether admin bar will be shown for user.
 - locale
+   - Locale of user.
 - wp_user_level
+   - Level of user, the higher the level, the more permission they have.
 - dismissed_wp_pointers
+   - Dismissing a WordPress pointer.
 - show_welcome_panel
+   - Whether welcome panel will be shown for user
 - session_tokens
+   - Session token of user.
 - last_update
+   - The last update time of user.
 - billing information and shipping information
+   - Information related to billing and shipping of the user.
 
 
 
