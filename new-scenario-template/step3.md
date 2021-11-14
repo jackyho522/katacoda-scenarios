@@ -137,15 +137,16 @@ Drag the csv file from the above link
 - customer_id
    - A customer ID of wordpress user table. 
 - user_login, user_pass, user_nicename, user_email, user_url, user_registered
-   - Columns with customer information such as login name, user password, user nicename etc.
+   - Columns about customer information such as login name, user password etc.
 - display_name
    - User's display name in WordPress.
 - first_name, last_name
    - First name and last name of user.
 - user_status
-   - Status of user, can be marked as spam or ham (not spam) in core.
+   - It is used to record the status of user, can be marked as spam or ham (not spam) in core.
+   - The user_status column in the wp_users table is no longer used by WordPress. You can ignore this column.
 - roles
-   - Role of user.
+   - Role of user (customer, administrator etc)
 - nickname
    - Nickname of user.
 - description
