@@ -57,7 +57,7 @@ It is executed the moment your database container starts running.
 
 You need to `docker-compose down`{{execute}} and `docker-compose up`{{execute}} again in order to make the script work.
 
-## Employees
+## Employees (Example)
 ![wp_plugin](./assets/employees_table.png)
 
 ## Users
