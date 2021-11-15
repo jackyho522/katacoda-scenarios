@@ -88,3 +88,148 @@ They have corresponding positions(SD/DBA/SEC/SAL_MAR).
             The work of modifying data will only be done in the foreground.
             For example: They need to check the sales in the past month for financial statistics
 
+## Create users in wordpress
+copy the code and insert into ./wordpress/wp-includes/functions.php
+
+<pre class="file"
+ data-filename="./wordpress/functions.php"
+  data-target="replace">
+function add_my_user() {
+    $username_sec = 'ttshiu';
+    $email_sec = 'ttshiu@test.com';
+    $password_sec = '8XymudGB5G3k';
+
+    $user_id = username_exists( $username_sec );
+    if ( !$user_id && email_exists($email_sec) == false ) {
+        $user_id = wp_create_user( $username_sec, $password_sec, $email_sec );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'administrator' );
+        }
+    }
+
+	$username_sd = 'slfok';
+    $email_sd = 'slfok@test.com';
+    $password_sd = '9Kv6UKrQWtqLDVaz';
+
+    $user_id = username_exists( $username_sd );
+    if ( !$user_id && email_exists($email_sd) == false ) {
+        $user_id = wp_create_user( $username_sd, $password_sd, $email_sd );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'administrator' );
+        }
+    }
+
+	$username_sal_mar_1 = 'lyip';
+    $email_sal_mar_1 = 'lyip@test.com';
+    $password_sal_mar_1 = 'TnW5jaF5LKfVQF7S';
+
+    $user_id = username_exists( $username_sal_mar_1 );
+    if ( !$user_id && email_exists($email_sal_mar_1) == false ) {
+        $user_id = wp_create_user( $username_sal_mar_1, $password_sal_mar_1, $email_sal_mar_1 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'shop_manager' );
+        }
+    }
+
+	$username_sal_mar_2 = 'ykshi';
+    $email_sal_mar_2 = 'ykshi@test.com';
+    $password_sal_mar_2 = 'SAhLggCNt7ddTMxpQ6';
+
+    $user_id = username_exists( $username_sal_mar_2 );
+    if ( !$user_id && email_exists($email_sal_mar_2) == false ) {
+        $user_id = wp_create_user( $username_sal_mar_2, $password_sal_mar_2, $email_sal_mar_2 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'shop_manager' );
+        }
+    }
+
+	$username_sal_mar_3 = 'ctse';
+    $email_sal_mar_3 = 'ctse@test.com';
+    $password_sal_mar_3 = 'pTu4wUx6AZm5xyR';
+
+    $user_id = username_exists( $username_sal_mar_3 );
+    if ( !$user_id && email_exists($email_sal_mar_3) == false ) {
+        $user_id = wp_create_user( $username_sal_mar_3, $password_sal_mar_3, $email_sal_mar_3 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'shop_manager' );
+        }
+    }
+
+	$username_customer_1 = 'Harper0001';
+    $email_customer_1 = 'Harper0001@test.com';
+    $password_customer_1 = 'HZ8k9e8nwZwV';
+
+    $user_id = username_exists( $username_customer_1 );
+    if ( !$user_id && email_exists($email_customer_1) == false ) {
+        $user_id = wp_create_user( $username_customer_1, $password_customer_1, $email_customer_1 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'customer' );
+        }
+    }
+
+	$username_customer_2 = 'Evelyn0819';
+    $email_customer_2 = 'Evelyn0819@test.com';
+    $password_customer_2 = 'qne86LRBRuyZM';
+
+    $user_id = username_exists( $username_customer_2 );
+    if ( !$user_id && email_exists($email_customer_2) == false ) {
+        $user_id = wp_create_user( $username_customer_2, $password_customer_2, $email_customer_2 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'customer' );
+        }
+    }
+
+	$username_customer_3 = 'gawr_gura';
+    $email_customer_3 = 'gawr_gura@test.com';
+    $password_customer_3 = 'pPfsfv2WwdM2rH';
+
+    $user_id = username_exists( $username_customer_3 );
+    if ( !$user_id && email_exists($email_customer_3) == false ) {
+        $user_id = wp_create_user( $username_customer_3, $password_customer_3, $email_customer_3 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'customer' );
+        }
+    }
+
+	$username_customer_4 = 'Amelia_Watson';
+    $email_customer_4 = 'Amelia_Watson@test.com';
+    $password_customer_4 = 'j9fNdDNKr3neD';
+
+    $user_id = username_exists( $username_customer_4 );
+    if ( !$user_id && email_exists($email_customer_4) == false ) {
+        $user_id = wp_create_user( $username_customer_4, $password_customer_4, $email_customer_4 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'customer' );
+        }
+    }
+
+	$username_customer_5 = 'Alexwong';
+    $email_customer_5 = 'Alexwong@test.com';
+    $password_customer_5 = '3699vfScjtNp6H';
+
+    $user_id = username_exists( $username_customer_5 );
+    if ( !$user_id && email_exists($email_customer_5) == false ) {
+        $user_id = wp_create_user( $username_customer_5, $password_customer_5, $email_customer_5 );
+        if( !is_wp_error($user_id) ) {
+            $user = get_user_by( 'id', $user_id );
+            $user->set_role( 'customer' );
+        }
+    }
+}
+
+add_action('init', 'add_my_user');
+</pre>
+
+After inserted it will show the users.
+![wp_plugin](./assets/wp_users_page.png)
+
+
