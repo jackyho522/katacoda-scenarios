@@ -88,8 +88,9 @@ They have corresponding positions(SD/DBA/SEC/SAL_MAR).
             The work of modifying data will only be done in the foreground.
             For example: They need to check the sales in the past month for financial statistics
 
-## Create users in wordpress
-copy the code and insert into ./wordpress/wp-includes/functions.php
+## Create users in wordpress by using funcitons.php
+
+You can create users by adding custom functions to override pluggable functions in WordPress. You can copy this function and insert into ./wordpress/wp-includes/functions.php
 
 <pre class="file"
  data-filename="./wordpress/functions.php"
@@ -229,7 +230,13 @@ function add_my_user() {
 add_action('init', 'add_my_user');
 </pre>
 
+The code checks if the user has the same id and email. If no error is outputted (is_wp_error), the user is created.
+
+`$user->set_role( 'customer' );`: You can set the role here.
+
+
 After inserted it will show the users.
+
 ![wp_plugin](./assets/wp_users_page.png)
 
 
