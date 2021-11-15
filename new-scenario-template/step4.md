@@ -57,6 +57,8 @@ It is executed the moment your database container starts running.
 
 You need to `docker-compose down`{{execute}} and `docker-compose up`{{execute}} again in order to make the script work.
 
+WooCommerce tables detail can be found in WooCommerce github: https://github.com/woocommerce/woocommerce/wiki/Database-Description
+
 ## Employees (Example)
 ![wp_plugin](./assets/employees_table.png)
 
