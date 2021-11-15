@@ -127,7 +127,7 @@ Create folder "mu-plugins" in wp-content folder and copy the php file downloaded
 
 ![bcrypt_download](./assets/bcrypt_download.PNG)
 
-The plugin will becomes must-use plugin in WordPress, which can also encrypt the password.
+The plugin will become must-use plugin in WordPress, which can also encrypt the password.
 ![bcrypt_verifyinstall](./assets/bcrypt_verifyinstall.PNG)
 
 # How does it work
