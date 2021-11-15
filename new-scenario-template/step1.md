@@ -54,7 +54,8 @@ services:
       - "./plugins:/var/www/html/wp-content/plugins"
 </pre>
 
-Copy to my.cnf
+Copy to my.cnf. This will enable MySQL general log. It shows that what mysqld is doing, which includes every query in MySQL.
+
 <pre class="file"
  data-filename="./cfg/my.cnf"
   data-target="replace">
