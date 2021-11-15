@@ -142,7 +142,5 @@ Details: https://www.php.net/manual/en/function.password-hash.php
 Looking source code of wp-password-bcrypt.php:
 You can see that PASSWORD_DEFAULT is used
 
-image here
-
 ![bcrypt_code](./assets/bcrypt_code.png)
 
