@@ -4,8 +4,8 @@
 
 ## Task
 1. There is a file, called permission.sql
-2. You need to copy the contents to permission.sql in scripts folder.
-3. About the permission.sql, it create users, role and grant the appropriate permission to users.
+2. You need to copy the contents to permission.sql in scripts folder, which is already mounted to MySQL docker container.
+3. In the permission.sql, it create users, role and grant the appropriate permission to users.
 
 Copy to permission.sql
 
