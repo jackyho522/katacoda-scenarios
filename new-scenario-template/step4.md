@@ -9,7 +9,9 @@
 
 Copy to permission.sql
 
-<pre class="file">
+<pre class="file"
+ data-filename="./scripts/permission.sql"
+  data-target="replace">
 create user 'slfok'@'%' identified by '9Kv6UKrQWtqLDVaz';
 create user 'lyip'@'%' identified by 'TnW5jaF5LKfVQF7S';
 create user 'mhyau'@'%' identified by 'QrWChDCyMpyaShrm';
