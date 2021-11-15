@@ -111,8 +111,6 @@ The above information can be added by a csv file. The sample csv file can be dow
 You can select fields from your CSV file to map against products fields. 
 https://github.com/woocommerce/woocommerce/blob/master/sample-data/sample_products.csv
 
-![csv](./assets/csv_example_colume.png)
-
 ## Add new users
 - Customer example csv file can be downloaded in here:
 https://www.dropbox.com/s/2i2bn03mpmx7ldc/customers.csv?dl=0
