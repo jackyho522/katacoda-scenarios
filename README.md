@@ -3,4 +3,4 @@ Katacoda Scenarios
 
 Test Github for pushing scenarios
 
-Currently working on encryption of WordPress
+
