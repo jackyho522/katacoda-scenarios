@@ -125,6 +125,7 @@ After installation and clicking Activate, the plugin will not encrypt the passwo
 Alternatively, download "wp-password-bcrypt.php" file from the plugin's github site.
 Create folder "mu-plugins" in wp-content folder and copy the php file downloaded in the folder.
 
+![bcrypt_muplugins](./assets/bcrypt_muplugins.PNG)
 ![bcrypt_download](./assets/bcrypt_download.PNG)
 
 The plugin will become must-use plugin in WordPress, which can also encrypt the password.
